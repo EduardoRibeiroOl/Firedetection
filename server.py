@@ -5,6 +5,8 @@ import threading
 import lgpio
 import time
 
+
+# Usa de referencia aí, depois tem que desmontar isso daqui
 # GPIO
 
 chip = lgpio.gpiochip_open(0)
