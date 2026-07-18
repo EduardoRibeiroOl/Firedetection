@@ -22,6 +22,6 @@ def optica(centro_x, largura, HFOV):
     # angulo das coisas, qualquer coisa refatora
     
     centro_imagem = largura / 2
-    angulo = (centro_x - centro_imagem) * HFOV / largura
+    angle = (centro_x - centro_imagem) * HFOV / largura
     
-    return angulo
+    return angle
